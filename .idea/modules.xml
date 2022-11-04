@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShowcaseView.iml" filepath="$PROJECT_DIR$/ShowcaseView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShowcaseView.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.iml" filepath="$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/showcaseview/ShowcaseView.showcaseview.unitTest.iml" />
+    </modules>
+  </component>
+</project>

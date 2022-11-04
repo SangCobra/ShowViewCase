@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'MyReleaseKey'
+            keyPassword 'IAmSmartEnoughtToHideThis'
+            storeFile file('/Users/ashish/Documents/Personal/ShowcaseViewDemo/MyReleaseKeyStore.jks')
+            storePassword 'IAmSmartEnoughToHideThis'
+        }
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "showcaseview.outlander.showcaseviewdemo"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 6
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':showcaseview')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    //compile 'com.outlander.showcaseview:showcaseview:1.2.0'
+}
